@@ -1,10 +1,10 @@
 {
   "jspm": {
     "dependencies": {
-      "aurelia-bootstrapper": "npm:aurelia-bootstrapper@1.0.0-rc.1.0.0",
-      "aurelia-fetch-client": "npm:aurelia-fetch-client@1.0.0-rc.1.0.0",
-      "aurelia-framework": "npm:aurelia-framework@1.0.0-rc.1.0.0",
-      "aurelia-http-client": "npm:aurelia-http-client@1.0.0-rc.1.0.0",
+      "aurelia-bootstrapper": "npm:aurelia-bootstrapper@^1.0.0-rc.1.0.0",
+      "aurelia-fetch-client": "npm:aurelia-fetch-client@^1.0.0-rc.1.0.0",
+      "aurelia-framework": "npm:aurelia-framework@^1.0.0-rc.1.0.0",
+      "aurelia-http-client": "npm:aurelia-http-client@^1.0.0-rc.1.0.0",
       "bootstrap": "github:twbs/bootstrap@^3.3.6"
     },
     "devDependencies": {
@@ -12,5 +12,8 @@
       "babel-runtime": "npm:babel-runtime@^5.8.24",
       "core-js": "npm:core-js@^1.1.4"
     }
+  },
+  "devDependencies": {
+    "jspm": "^0.16.42"
   }
 }
