@@ -75,21 +75,4 @@ export class AccountService{
 		});
 		return promise;
     }
-
-    // getPeople() {
-    //     console.log("I'm about to fuck some shit up!!");
-    //     let baseUrl = "http://swapi.co/api/people?format=json";
-    //     let promise = new Promise((resolve, reject) => {
-    //         this._httpClient.get(baseUrl)
-    //         .then( result => {
-    //             //var data = JSON.parse(result.response);
-    //             this.starwars = result;
-    //             resolve(this.starwars);
-    //         });
-    //     });
-    //     console.log("Star Wars bitches!!: " + this.starwars);
-
-    //     return promise;
-    // }
-
 }
