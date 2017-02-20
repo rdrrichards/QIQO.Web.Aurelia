@@ -1,4 +1,4 @@
-let baseHost = 'http://localhost:49847/api/';
+let baseHost = 'http://localhost:34479/api/';
 
 export let CONFIG = {
   baseUrls: {
